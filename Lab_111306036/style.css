@@ -1,0 +1,42 @@
+
+body{
+	background-color: lightblue;}
+#h1-1{
+	font-family:  sans-serif,tahoma;}
+span{
+	color:blue;
+}
+.extra span{
+		color : inherit;
+}
+#myHeader1{
+	background-color:slateblue;
+	color: black;
+}
+.subtitle1{
+	background-color:skyblue;}
+	h1,em{text-decoration: underline;}
+	p em{text-decoration: overline;}
+
+
+#page2body{
+	background-color: beige;
+}
+#myHeader2{
+	background-color: sandybrown;
+	color: black;
+}
+.subtitle2{
+	background-color:burlywood;
+	}
+span{
+	color:darkred;
+}
+.extra span{
+	color : inherit;
+}
+li em{
+	text-decoration: line-through;
+}
+h1,em{
+	text-decoration: underline;}
