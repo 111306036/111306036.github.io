@@ -1,8 +1,10 @@
 
 body{
-	background-color: lightblue;}
+	background-color: lightblue;
+	}
 #h1-1{
-	font-family:  sans-serif,tahoma;}
+	font-family:  sans-serif,tahoma;
+	z-index: 1}
 span{
 	color:blue;
 }
@@ -12,11 +14,14 @@ span{
 #myHeader1{
 	background-color:slateblue;
 	color: black;
+	z-index: 1;
 }
 .subtitle1{
 	background-color:skyblue;}
-	h1,em{text-decoration: underline;}
-	p em{text-decoration: overline;}
+h1,em{text-decoration: underline;}
+p em{text-decoration: overline;}
+
+
 
 
 #page2body{
@@ -29,14 +34,8 @@ span{
 .subtitle2{
 	background-color:burlywood;
 	}
-span{
-	color:darkred;
-}
-.extra span{
-	color : inherit;
-}
-li em{
-	text-decoration: line-through;
-}
-h1,em{
-	text-decoration: underline;}
+
+li em{text-decoration: line-through;}
+h1,em{text-decoration: underline;}
+
+
