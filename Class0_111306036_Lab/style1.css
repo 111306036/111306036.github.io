@@ -55,9 +55,9 @@ a {text-decoration:none;}
 
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:800px){
 	body{
-		background-color:white ;
+		background-color:slategrey;
 	}
 }
 
