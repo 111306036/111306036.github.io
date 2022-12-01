@@ -1,0 +1,46 @@
+
+body{
+	background-color:#FFE8BF;
+	padding: 2% 2% 5% 5%;
+	font-family: sans-serif;
+}
+
+
+
+input[type=text], select {
+  width: 15%;
+  padding: 6px 8px;
+  margin: 8px 0;
+  border: 0.5px ;
+  border-radius: 4px;
+
+}
+
+
+div{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+
+.float{
+	float:left;
+	}
+
+
+img{
+	margin: 0 auto ;
+	height:30%;
+	width: 30%;
+	
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightgray;
+  }
+}
