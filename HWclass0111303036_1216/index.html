@@ -7,16 +7,16 @@
 </head>
 <body>
 	<script type="text/javascript">
+		var x,rand;
 		var rand = Math.floor((Math.random()*10)+1);
-		var x;
 		var x= parseInt(window.prompt("your guess"));
 		while(x!=rand){
-			var x= parseInt(window.prompt("your guess"));
-			while(x==rand){
+			var x= parseInt(window.prompt("your guess"));}
+		while(x==rand){
 			document.body.style.backgroundColor='lightyellow';
-			document.write("you are right");
+			document.writeln("you are right");
 		}
-		}
+		
 		
 	</script>
 </body>
