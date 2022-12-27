@@ -18,7 +18,7 @@
 	<img id="die10" src="die1.png" alt="blank image">
 	<img id="die11" src="die1.png" alt="blank image">
 	<img id="die12" src="die1.png" alt="blank image"></p>
-	
+
 	<form action="#">
 		<input id="rollButton" type="button" value="Roll Dice">
 	</form>
@@ -82,7 +82,8 @@
 
 			var tableDiv= document.getElementById("frequencyTableDiv");
 
-			tableDiv.innerHTML="<table>"+"<caption>Die Rolling Frequencies</caption>"+"<thead><th>Face</th><th>Frequency</th>"+"<th>percent</th></thead>"+
+			tableDiv.innerHTML="<table>"+
+			"<caption>Die Rolling Frequencies</caption>"+"<thead><th>Face</th><th>Frequency</th>"+"<th>percent</th></thead>"+
 			"<tbody><tr><td>1</td><td>"+frequency1+"</td> <td>"+Math.floor((frequency1/totalDice)*100)+"%"+"</td> </tr>"+
 			"<tr><td>1</td><td>"+frequency2+"</td> <td>"+Math.floor((frequency2/totalDice)*100)+"%"+"</td> </tr>"+
 			"<tr><td>1</td><td>"+frequency3+"</td> <td>"+Math.floor((frequency3/totalDice)*100)+"%"+"</td> </tr>"+
