@@ -3,17 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
+	<style type="text/css">
 		body{
 			padding-inline: 90px;
-			font-family: Arial;
-		}
+			font-family: Arial;}
 		div{
 			background-color: whitesmoke;
 			text-align: center;
 			line-height: 28px;
-			font-size: 16px;
-		}
+			font-size: 16px;}
 		.cal_button{
 			width: 250px;
 			height: 40px;
@@ -28,6 +26,7 @@
 			border: 1px lightgray solid;
 			border-radius: 3px;
 		}
+
 	</style>
 	<title></title>
 </head>
@@ -36,20 +35,21 @@
 		<br><h2 class="header">JS Calculator</h2>
 			<form>
 				<label>Number 1</label><br>
-				<imput type="number" id="num1" class="input_box"><br>
+				<input type="number" id="num1" class="input_box"><br>
 				<label>Number2</label><br>
-				<imput type="number" id="num2" class="input_box"><br>
+				<input type="number" id="num2" class="input_box"><br>
 				<label>Calculation</label><br>
 				<select id="operate" name="method">
 					<option value="0">+</option>
 					<option value="1">-</option>
 					<option value="2">*</option>
 					<option value="3">/</option>
-				</select>
+				</select><br>
 			</form>
 			<input type="button" value="count" class="cal_button" onClick="calculator()">
 			<p>Result =<span id="result"></span></p><br>
 	</div>
+
 	<script type="text/javascript">
 		function calculator(){
 			var n1 = parseInt(document.getElementById('num1').value);
